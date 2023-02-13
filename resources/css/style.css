@@ -29,6 +29,10 @@ Table of css
 /* ==========
    1.Basic
    ========== */
+* {
+    font-family: "poppins";
+}
+
 
 html {
     background-color: #eee;
@@ -226,13 +230,13 @@ button:focus{
 
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
     text-decoration: none;
-    color:#70a67c;
+    color:grey;
     transition: all 0.3s;
     background-color: transparent;
 } 
 
 .dropdown-menu>li:active>a,.dropdown-menu>li:hover>a {
-    color: #70a67c;
+    color: black;
 }
 
 .dropdown-submenu{
@@ -288,7 +292,7 @@ button:focus{
 }
 
 .navbar-custom .navbar-nav li.active-item > a{
-    color: #70a67c;
+    color: black;
 }
 
 
@@ -352,7 +356,7 @@ button:focus{
 }
 
 .portfolioFilter a.current {
-    background-color: #70a67c;
+    background-color: black;
     color: #fff;
 }
 
